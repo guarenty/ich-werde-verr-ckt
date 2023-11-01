@@ -6,7 +6,7 @@
 const supabase = useSupabaseClient()
 
 const { data, error } = await supabase.auth.signInWithPassword({
-  email: "tester@schirri.de",
+  email: "tester@test.de",
   password: "password"
 })
 </script>
